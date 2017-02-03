@@ -822,7 +822,7 @@ background-color:white;
                   </size>
                  </property>
                  <property name="text">
-                  <string>Infinite:</string>
+                  <string>Infinite memory:</string>
                  </property>
                 </widget>
                </item>

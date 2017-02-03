@@ -6,9 +6,6 @@ TARGET = Finite-State_Machine_Emulator
 
 TEMPLATE = app
 
-TRANSLATIONS = Languages/en.ts\
-               Languages/ru.ts
-
 DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp \
