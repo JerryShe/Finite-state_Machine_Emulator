@@ -28,8 +28,9 @@ private slots:
     void on_actionMoore_Machine_triggered();
     void on_actionClose_triggered();
 
-    void on_StateTable_itemChanged(QTableWidgetItem *ChangedItem);
-    void on_StateOutputTable_itemChanged(QTableWidgetItem *item);
+    void on_TransTable_itemChanged(QTableWidgetItem *ChangedItem);
+    void on_OutputTable_itemChanged(QTableWidgetItem *ChangedItem);
+
     void on_ISequence_itemChanged(QTableWidgetItem *item);
 
     void on_AddState_clicked();
@@ -44,6 +45,8 @@ private slots:
     void on_RunSeq_clicked();
 
     bool doStep();
+
+
 
 private:
     void renameState(QString oldState, QString newState);
